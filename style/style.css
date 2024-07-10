@@ -1,0 +1,87 @@
+*{
+    max-width: 1440px;;
+    margin: auto;
+}
+.azeret-mono-ormal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+    /* Nav Styles */
+ nav .nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+
+    
+ }
+ nav .Resume-button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+ }
+ nav div h4{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: rgb(13, 19, 33)
+
+ }
+ /* MAin Section */
+    .main-section{
+        width: 1440px;
+        height: 652px;
+        border: solid 2px rebeccapurple;
+        background-image: url(/assets/Hero-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        
+    }
+    .hero-content{
+        width: 998px;
+        height: 582px;
+        border: solid 2px rebeccapurple;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 24px;
+    
+    }
+    .hero-content .hero-description h1{
+        color: rgb(13, 19, 33);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .hero-content .hero-description p{
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        opacity: 0.8;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .hero-content .hero-description button{
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgb(13, 19, 33);
+        border-radius: 6px;
+        padding: 12px 18px;
+        color: rgb(255, 255, 255);
+        margin-top: 44px;
+        cursor: pointer;
+    }
+
+   
