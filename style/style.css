@@ -88,7 +88,7 @@
     /* About Sections Styles */
     .about-section{
         width: 998px;
-        height: 1395px;
+        height: 1195px;
         border: solid 2px rebeccapurple;
         margin-top: 50px;
     }
@@ -165,5 +165,30 @@
     align-items: center;
 }
 
-
-   
+/* My Inspiration Section */
+  .My-Inspiration{
+    width: 998px;
+    height: 775px; 
+    border: solid 2px rebeccapurple;
+    margin: 50px auto;
+  }
+  
+  .Inspiration-title h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Inspiration-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.8;
+    text-align: center;
+  }
+  .Inspiration-video{
+    height: 614px;
+    margin-top: 30px;
+    border: solid 2px rebeccapurple;
+  }
