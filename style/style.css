@@ -268,3 +268,59 @@
     margin: 30px auto;
     padding: 36px;
   }
+
+  /* Contact Sections */
+  .contact-section{
+    width: 998px;
+    height: 300px;
+    border: solid 2px rebeccapurple;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.723),rgba(0, 0, 0, 0.289),rgba(0, 0, 0.456)) , url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+  #contact-content{
+    width: 800px;
+    height: 180px;
+    border: solid 2px whitesmoke;
+    margin: 44px auto;
+  }
+  #contact-title{
+    text-align: center;
+    margin: 32px;
+  }
+
+  #contact-title h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+  }
+  #contact-title{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }
+  
+  .Email-sent{
+    text-align: center;
+  }
+  .Email-sent input{
+    width: 448px;
+    height: 44px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .Email-sent button{
+    width: 140px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
