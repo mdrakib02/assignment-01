@@ -192,3 +192,79 @@
     margin-top: 30px;
     border: solid 2px rebeccapurple;
   }
+  /* My Target Sections */
+
+  .target-section{
+    width: 998px;
+    height: 460px;
+    border: solid 2px rebeccapurple;
+  }
+
+  .target-section-title-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .target-section-title-content p{
+    color: rgb(13, 19, 33);
+    font-weight: normal;
+    font-size: 16px;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+
+  .card-details{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .card-h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin: 14px 0;
+  }
+  .card-p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-bottom: 32px;
+  }
+  .card-a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    border: solid 1px rgb(13, 19, 33);
+    opacity: 0.8;
+    padding: 8px 12px;
+  }
+
+  .card-one{
+    width: 230px;
+    height: 220px;
+    border: solid 2px rebeccapurple;
+    margin: 30px auto;
+    padding: 36px;
+  }
+
+
+  .card-two{
+    width: 230px;
+    height: 220px;
+    border: solid 2px rebeccapurple;
+    margin: 30px auto;
+    padding: 36px;
+  }
+
+
+  .card-three{
+    width: 230px;
+    height: 220px;
+    border: solid 2px rebeccapurple;
+    margin: 30px auto;
+    padding: 36px;
+  }
