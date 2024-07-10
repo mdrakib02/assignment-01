@@ -1,6 +1,6 @@
 *{
-    max-width: 1440px;;
-    margin: auto;
+    max-width: 100%;
+    margin: 0% auto;
 }
 .azeret-mono-ormal{
   font-family: "Azeret Mono", monospace;
@@ -8,10 +8,15 @@
   font-style: normal;
 }
     /* Nav Styles */
+    nav{
+        width: 100%;
+        background-color: rgba(13, 19, 33, 0.03);
+    }
  nav .nav-content{
+    width: 1440px;
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    padding: 24px;
 
     
  }
@@ -23,6 +28,7 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 
  }
  nav div h4{
@@ -36,9 +42,8 @@
 
     /* Hero Sections Styles */
     .hero-section{
-        width: 1440px;
+        width: 998px;
         height: 652px;
-        border: solid 2px rebeccapurple;
         background-image: url(/assets/Hero-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -49,7 +54,6 @@
     .hero-content{
         width: 998px;
         height: 582px;
-        border: solid 2px rebeccapurple;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -89,7 +93,6 @@
     .about-section{
         width: 998px;
         height: 1195px;
-        border: solid 2px rebeccapurple;
         margin-top: 50px;
     }
 
@@ -119,7 +122,6 @@
     .about-content-one{
         width: 850px;
         height: 240px;
-        border: solid 2px rebeccapurple;
         padding: 48px;
         display: flex;
         flex-direction: row-reverse;
@@ -158,7 +160,7 @@
     .about-content-two{
     width: 850px;
     height: 240px;
-    border: solid 2px rebeccapurple;
+
     padding: 48px;
     display: flex;
     flex-direction: row;
@@ -169,7 +171,6 @@
   .My-Inspiration{
     width: 998px;
     height: 775px; 
-    border: solid 2px rebeccapurple;
     margin: 50px auto;
   }
   
@@ -190,15 +191,18 @@
   .Inspiration-video{
     height: 614px;
     margin-top: 30px;
-    border: solid 2px rebeccapurple;
+    
+  }
+  .Inspiration-video iframe{
+    border-radius: 8px;
   }
   /* My Target Sections */
 
   .target-section{
     width: 998px;
     height: 460px;
-    border: solid 2px rebeccapurple;
-  }
+
+}
 
   .target-section-title-content h3{
     font-size: 32px;
@@ -246,25 +250,28 @@
   .card-one{
     width: 230px;
     height: 220px;
-    border: solid 2px rebeccapurple;
     margin: 30px auto;
     padding: 36px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 8px;
   }
 
 
   .card-two{
     width: 230px;
     height: 220px;
-    border: solid 2px rebeccapurple;
     margin: 30px auto;
     padding: 36px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 8px;
   }
 
 
   .card-three{
     width: 230px;
     height: 220px;
-    border: solid 2px rebeccapurple;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 8px;
     margin: 30px auto;
     padding: 36px;
   }
@@ -273,7 +280,6 @@
   .contact-section{
     width: 998px;
     height: 300px;
-    border: solid 2px rebeccapurple;
     margin: 50px auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.723),rgba(0, 0, 0, 0.289),rgba(0, 0, 0.456)) , url(/assets/handshake.jpg);
     background-size: cover;
@@ -284,12 +290,12 @@
   #contact-content{
     width: 800px;
     height: 180px;
-    border: solid 2px whitesmoke;
-    margin: 44px auto;
+    padding-top: 44px;
   }
   #contact-title{
     text-align: center;
-    margin: 32px;
+    margin: 44px auto;
+    
   }
 
   #contact-title h3{
@@ -323,4 +329,22 @@
     border: none;
     border-radius: 5px;
     margin-left: 20px;
+    cursor: pointer;
+  }
+
+  /* Footer Sections Styles */
+  footer{
+    width: 100%;
+    background-color: rgba(13, 19, 33, 0.03);
+  }
+  #footer-section{
+    width: 1440px;
+    padding: 44px 0;
+   
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  #footer a{
+    margin-left: 8px;
   }
